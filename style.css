@@ -1,0 +1,106 @@
+:root{
+    font-size:16px
+}
+body{
+    background-color: #4dd599;
+}
+.todo-banner{
+    border: 1px solid grey;
+    border-radius:20px;
+    background-color: #fa697c;
+    width:40vw;
+    margin:5vh 20vw;
+    text-align:center;
+}
+.myinput-field{
+    width:70%;
+    margin:5px auto;
+}
+.myAddToDoButton{
+    background-color: #36b5b0;
+    margin: 20px auto;
+    font-size:1.5rem
+}
+
+.textNotes{
+    width: 70%;
+    margin: 5px auto;
+}
+
+#todotasks{
+    width:75vw;
+    margin:  auto;
+}
+#myTodoUL{
+    color:white;
+    font-size: 1.8rem;
+    list-style-type: none;
+    width: 100%;
+
+}
+.individualTodos{
+    background-color: #fa697c;
+    border: 1px solid #fa697c;
+
+}
+
+.todotextsclass{
+    color: black;
+    width : 50%;
+    display:inline-block;
+    margin-left : 2vw;
+    margin-right:5vw;
+    border:1px solid #018383;
+    border-radius:5px;
+    background-color: #018383;
+}
+.checkboxclass{
+    width: 22px;
+    height:22px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:10px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer; 
+}
+.checkboxclass:checked {
+    background-color: #2196F3;
+}
+.checkboxclass:checked +div{
+    text-decoration: line-through;
+}
+
+.crossButton{
+    width:10vw;
+    font-size: 1rem;
+    background-color: #36b5b0;
+    font-weight: 500;
+    display:none;
+}
+
+.individualTodos:hover .crossButton{
+    display:inline-block;
+    width:10vw;
+    font-size: 1rem;
+    background-color: #36b5b0;
+    font-weight: 500;
+}
+
+.updateButton{
+    width:10vw;
+    font-size: 1rem;
+    background-color: #36b5b0;
+    font-weight: 500;
+    display:none;
+}
+
+.individualTodos:hover .updateButton{
+    display:inline-block;
+    width:10vw;
+    font-size: 1rem;
+    background-color: #36b5b0;
+    font-weight: 500;
+}
